@@ -1,0 +1,109 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-expand-lg{
+	box-shadow: 0 2px 5px 1px;
+}
+.jumbotron{
+	margin-top: 25px;
+	box-shadow: 1px 0px 5px rgba(0,0,0,0.5);
+	background-image: url(../image/panorama1200x800.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -150px;
+	overflow: hidden;
+}
+.jumbotron img.foto{
+	border: 5px blur black;
+	box-shadow: 1px 1px 10px rgb(3, 3, 3);
+}
+.jumbotron h2{
+	text-shadow:1px 1px 5px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+.jumbotron p{
+	color: white;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.jumbotron .image1{
+	color: white;
+}
+html{
+	scroll-behavior: smooth;
+}
+img{
+	width: 200px;
+}
+h2{
+	padding-top: 10px;
+}
+.row hr{
+	width: 250px;
+	border-top: 2px solid gray;
+}
+.about{
+	min-height: 350px;
+}
+.about .container .row .kol{
+	opacity: 0;
+	transition: .5s;
+	transform: translate(0,-40px);
+}
+.about .container .row .kol.show{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.introduce .container .row .col-md{
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+.introduce{
+	background-color: rgb(255, 255, 255);
+	min-height: 350px;
+	padding-top: 10px;
+
+}
+.work-experience{
+	min-height: 500px;
+	padding-top: 10px;
+	background-image: url('../image/sosmed1800x800.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.work-experience .container .row .col-sm h2{
+	color: white;
+	text-shadow: 2px 2px 5px  black;
+}
+.work-experience .container .row .col-sm .row ul li{
+	color: white;
+	text-shadow: 2px 2px 5px  black;
+}
+.footer{
+	height: 50%;
+	width: 100%;
+	background-color: black;
+	color:white;
+
+}
+.image1 img{
+	width: 40px;
+	height: 40px;
+}
+.image1 img.facebook{
+	width: 25px;
+	height: 25px;
+}
+.image1 img.wa{
+	width: 37px;
+	height: 37px;
+}
+.image1 img.email{
+	width: 30px;
+	height: 30px;
+	border-radius:;
+}
+
